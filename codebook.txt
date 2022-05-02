@@ -1,0 +1,20 @@
+This is a codebook for PSY6422 project titled: "The difference in time women and men spend on various activities".
+
+Data set reference:
+Chapa, F. (2021). World time use, work hours and GDP. [Data File]. Kaggle.
+Retrieved from: https://www.kaggle.com/datasets/felipechapa/time-use-employment-and-gdp-per-country?select=Time_use_OECD.csv
+
+The data set retreived did not include any codebook, therefore there is no information of data collection, etc.
+
+Variables in the original data set:
+1. "Country_Code" - country code
+2. "Country" - country name
+3. "DESC" - description code of an activity, including "UPW", "PCA", "LEI", "PAW", "OTH"
+4. "Description" - full names of activities, incl. "Unpaid work", "Personal care", "Leisure", "Paid work or study", "Other"
+5. "Sex" - either "men" or "women"
+6. "Age" - same values in every row, i.e. "15-64"
+7. "Minutes_per_day" - number of minutes per day spent on each activity, separete values for each country and each gender
+
+Variables created for research question and visualisation purpose:
+"Difference" - values calculated for each activity and each country by subtracting the value of "Minutes_per_day" for women from the values of "Minutes_per_day" for men.
+
