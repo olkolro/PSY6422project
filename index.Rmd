@@ -40,7 +40,7 @@ summary(timeuse_raw)
 
 ### Research Questions
 Main research question: **What is the difference in the time women and men spend on different activities during the day?**
-I will also visualise the amount of time women and men spend on various activities to find out whether there is a clear pattern in the data or there are some inconsistencies between countries.
+I will also visualise the amount of time women and men spend on various activities to find out whether there is a clear pattern in the data or if there are some inconsistencies between countries.
 
 ### Data Preparation and Visualisations
 
@@ -235,15 +235,15 @@ timeuse_diff %>% ggplot(mapping = aes(x = Country, y = Difference)) +
 ### Summary
 
 #### Brief interpretation of graphs
-The graphs illustrate that there are indeed differences in time women and men spent on different activities.
+The graphs illustrate that there are indeed differences in the time women and men spent on different activities.
 The graphs clearly indicate that, in general, women spend more time on unpaid work, whereas men spend more time on leisure and paid work or study.
-In terms of personal care and other activities, it seems that the time is rather similar with women spending seemingly more time on personal care than men. There does not appear to be a clear pattern in the data set. Whether men or women spend more time on personal care or other activities seem to depend on a country.
+In terms of personal care and other activities, it seems that the time is rather similar with women spending seemingly more time on personal care than men. There does not appear to be a clear pattern in the data set. Whether men or women spend more time on personal care or other activities seems to depend on a country.
 
 #### Brief thoughts
 Overall, as someone who has never had any experience with RStudio before, I am slightly proud of what I have managed to accomplish with this project. Especially, considering how challenging this whole module was for me. If I had more time, I would try to make my graphs interactive. I would combine the first five showing the time spent on various activities into one and order countries by the time differences between men and women. This is something I have tried but failed to do, but hopefully will figure out how to do in the future.
 
 #### What else can be done
-I thinks it would be interesting to group data by continents to find out whether cultural differences might be influential on the time difference between men and women. Moreover, the age range in this data set was extremely broad (age 15-64), therefore it may also be useful to find more data and find out whether time differences in sexes vary based on age and/or marital status.
+I think it would be interesting to group data by continents to find out whether cultural differences might be influential on the time difference between men and women. Moreover, the age range in this data set was extremely broad (age 15-64), therefore it may also be useful to find more data and find out whether time differences in sexes vary based on age and/or marital status.
 
 Reference:
 Chapa, F. (2021). *World time use, work hours and GDP*. [Data File]. Kaggle. Retrieved from: https://www.kaggle.com/datasets/felipechapa/time-use-employment-and-gdp-per-country?select=Time_use_OECD.csv 
